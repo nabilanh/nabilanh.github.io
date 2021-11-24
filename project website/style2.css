@@ -1,0 +1,129 @@
+body {
+  font-family: "Noto Sans KR"sans-serif;
+}
+
+.header {
+  background-color: #ecbcbc;
+  height: 90px;
+}
+
+.logo-j {
+  float: left;
+  padding: 15px 50px;
+  margin-left: auto;
+}
+
+.logo-h {
+  float: left;
+  padding: 50px 0px;
+}
+
+
+.logo-w {
+  float: right;
+  padding: 18px 50px;
+}
+
+.main {
+  background-color: #f5ecee;
+  height: 2680spx;
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-family: "Noto Sans KR"sans-serif;
+  font-style: bold;
+  font-size: 35px;
+  color: #e89899;
+}
+
+.copy-container h2 {
+  font-family: "Noto Sans KR"sans-serif;
+  font-style: bold;
+  font-size:30px;
+  color: #6a6161;
+}
+
+.copy-container h3 {
+  font-family: "Noto Sans KR"sans-serif;
+  font-style: bold;
+  font-size:25px;
+  color: #878b99;
+}
+
+.button-1 {
+  font-family: "Noto Sans KR"sans-serif;
+  text-align: center;
+  padding: 10px 32px;
+  background-color: #e89899;
+  font-size: 16px;
+  border-radius: 25px;
+  color: #878b99;
+}
+
+.button-2 {
+  font-family: "Noto Sans KR"sans-serif;
+  text-align: center;
+  padding: 10px 32px;
+  background-color: #e89899;
+  font-size: 16px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.copy-container h4 {
+  text-align: left;
+  padding: 15px 35px;
+  color: #6a6161;
+}
+
+.copy-container span {
+  color: #e89899;
+}
+
+.copy-container h4 {
+  text-align: left;
+  padding: 15px 35px;
+  color: #6a6161;
+}
+
+.copy-container h4 {
+  text-align: left;
+  padding: 15px 35px;
+  color: #6a6161;
+}
+
+.copy-container span1 {
+  color: #e89899;
+}
+
+.copy-container span2 {
+  color: #878b99;
+}
+
+.copy-container p {
+  font-family: "Noto Sans KR"sans-serif;
+  color: #878b99;
+  font-size: 12px;
+}
+
+footer {
+  background-color: #ecbcbc;
+  color: #ecbcbc;
+  height: 80px;
+  padding: 20px 30px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 3px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
